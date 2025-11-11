@@ -1,31 +1,31 @@
 {
   "carouselCards": [
     {
-      "id": "about-design",
-      "dataCard": "about-design",
-      "title": "Hey it's me! &nbsp;&nbsp;👋",
-      "description": "Glad you're here, nice to see you",
+      "id": "about-ai",
+      "dataCard": "about-ai",
+      "title": "AI/ML Engineer &nbsp;&nbsp;🤖",
+      "description": "Building intelligent systems that bridge machine learning theory with real-world applications",
       "backgroundClass": "about-design"
     },
     {
-      "id": "about-background",
-      "dataCard": "about-background",
-      "title": "Hey it's me again! &nbsp;&nbsp;😂",
-      "description": "Last track day at HPR, I got a new personal best of 2 minutes flat. Not bad.",
+      "id": "about-research",
+      "dataCard": "about-research",
+      "title": "Deepfake Detection &nbsp;&nbsp;🔍",
+      "description": "MSc research project using CNN + Multi-Head Self-Attention for robust media authenticity verification",
       "backgroundClass": "about-background"
     },
     {
-      "id": "about-creative",
-      "dataCard": "about-creative",
-      "title": "Something I captured &nbsp;&nbsp;📸",
-      "description": "One of my favorite captures to date, because of the patience it took.",
+      "id": "about-development",
+      "dataCard": "about-development",
+      "title": "Full-Stack Developer &nbsp;&nbsp;💻",
+      "description": "2+ years building scalable Drupal platforms and headless CMS architectures at LN Webworks",
       "backgroundClass": "about-creative"
     },
     {
-      "id": "about-personal",
-      "dataCard": "about-personal",
-      "title": "Something I'm making &nbsp;&nbsp;🎨",
-      "description": "This is my latest painting. Follow me on other platforms to watch me finish it.",
+      "id": "about-learning",
+      "dataCard": "about-learning",
+      "title": "Continuous Learner &nbsp;&nbsp;📚",
+      "description": "Always exploring new AI technologies, participating in hackathons, and staying current with ML research",
       "backgroundClass": "about-personal"
     }
   ]

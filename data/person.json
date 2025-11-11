@@ -1,37 +1,49 @@
 {
-  "name": "Jerimy Brown",
-  "jobTitle": "UX Director, Designer and Developer",
-  "description": "Creating design experiences that connect, inspire, and empower users through thoughtful UX direction, design, and development.",
-  "email": "jerimy@comcast.net",
-  "phone": "720.299.4940",
+  "name": "Your Name",
+  "jobTitle": "AI/ML Engineer & Full-Stack Developer",
+  "description": "Building intelligent systems that learn, adapt, and solve real problems — bridging machine learning models with production-grade software.",
+  "email": "your.email@example.com",
+  "phone": "",
   "location": {
-    "address": "4126 Fern Ave",
-    "city": "Broomfield",
-    "state": "CO",
-    "zip": "80020",
-    "country": "USA"
+    "address": "",
+    "city": "London",
+    "state": "",
+    "zip": "",
+    "country": "UK"
   },
-  "website": "https://jerimybrown.com",
-  "image": "https://jerimybrown.com/assets/images/about-me-1.png",
+  "website": "",
+  "image": "https://via.placeholder.com/400",
   "socialLinks": {
-    "linkedin": "https://www.linkedin.com/in/jerimybrown/",
-    "github": "https://github.com/jer1my",
-    "dribbble": "https://dribbble.com/Jerimy",
-    "instagram": "https://www.instagram.com/jerimybrown/"
+    "linkedin": "https://www.linkedin.com/in/yourprofile/",
+    "github": "https://github.com/yourprofile"
   },
   "skills": [
-    "UX Design",
-    "Product Design",
-    "Design Systems",
-    "AI/ML Design",
-    "User Research",
-    "Front-end Development",
-    "Accessibility",
-    "Design Leadership"
+    "Machine Learning",
+    "Deep Learning",
+    "Computer Vision",
+    "Natural Language Processing",
+    "Full-Stack Development",
+    "Drupal Engineering",
+    "Model Optimization",
+    "AI Integration"
   ],
-  "summary": "Full-stack UX leader combining director-level strategy with hands-on design and development expertise. Over 25 years architecting user experiences that bridge business objectives, technical constraints, and emerging AI capabilities. Specializing in transforming complex problems into intuitive solutions—leading teams through platform consolidations, establishing enterprise design systems, and integrating AI features that build progressive user trust. Technical fluency in modern front-end development and deep understanding of ML/AI capabilities enable authentic collaboration across disciplines while driving innovation in human-AI interaction design.",
-  "oldPortfolio": {
-    "url": "https://www.jerimy.co/",
-    "description": "Curious about my design evolution? Take a look at life before the flat design movement."
-  }
+  "summary": "AI/ML Engineer and Software Developer specializing in building intelligent systems that are both functional and deployable. With a strong foundation in full-stack web development and Drupal engineering, combined with an MSc in Artificial Intelligence (A Grade) from London, I bridge the gap between training sophisticated ML models and integrating them into real-world applications. My expertise spans Deep Learning, Computer Vision, NLP, and Transformer architectures, with hands-on experience in model optimization, quantization, and production deployment. What sets me apart is understanding both sides: how to build intelligent systems and how to deploy them from front-end to backend to production.",
+  "education": [
+    {
+      "degree": "MSc in Artificial Intelligence",
+      "institution": "London Metropolitan University",
+      "location": "London, UK",
+      "dates": "Sep 2024 - Oct 2025",
+      "grade": "A (Distinction)",
+      "description": "Specialized in Machine Learning, Deep Learning, Computer Vision, and NLP. Research project: Deepfake Detection using CNN + Multi-Head Self-Attention hybrid architecture."
+    },
+    {
+      "degree": "Bachelor of Computer Applications",
+      "institution": "I. K. Gujral Punjab Technical University",
+      "location": "Punjab, India",
+      "dates": "Jul 2017 - Nov 2020",
+      "grade": "Second Class",
+      "description": "Foundation in computer science fundamentals, programming, software development, algorithms, databases, and system architecture."
+    }
+  ]
 }

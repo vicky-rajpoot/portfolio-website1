@@ -1,143 +1,59 @@
 {
   "experience": [
     {
-      "company": "Precisely",
-      "location": "Denver, CO",
-      "title": "Director of UX",
-      "dates": "06/2018 - PRESENT",
-      "startDate": "2018-06",
-      "endDate": null,
-      "description": "Direct global UX strategy and design systems across the product portfolio, leading distributed teams of designers and researchers. Transform disparate legacy products and on-premises solutions into the unified Data Integrity Suite—a modern SaaS platform with hybrid deployment options—through scalable design frameworks, strategic AI integration, and rapid research methodologies. Establish design standards that accelerate development, ensure consistency across deployment models, and drive innovation throughout the product lifecycle.",
-      "featured": true
+      "company": "London Metropolitan University",
+      "location": "London, UK",
+      "title": "MSc in Artificial Intelligence",
+      "dates": "09/2024 - 10/2025",
+      "startDate": "2024-09",
+      "endDate": "2025-10",
+      "type": "education",
+      "description": "Completed MSc in Artificial Intelligence with A Grade (Distinction), specializing in Machine Learning, Deep Learning, Computer Vision, and NLP. Developed advanced AI solutions using Python, TensorFlow, PyTorch, and Scikit-learn. Research project focused on Deepfake Detection using a CNN + Multi-Head Self-Attention hybrid architecture, achieving improved detection accuracy across multiple datasets. Key modules included AI Vision & Deep Learning, Advanced AI Technologies, Machine Learning, Cloud Computing & IoT, and Data Warehousing & Big Data.",
+      "featured": true,
+      "highlights": [
+        "Achieved A Grade (Distinction) in rigorous AI program",
+        "Developed Deepfake Detection system using hybrid CNN-MHSA architecture",
+        "Hands-on experience with CNNs, RNNs, Transformers, and attention mechanisms",
+        "Applied model optimization and quantization techniques for production deployment",
+        "Member of AI & Data Science Society, participating in hackathons and research seminars"
+      ]
     },
     {
-      "company": "Hitachi",
-      "location": "Denver, CO",
-      "title": "Sr. UX/UI Engineer",
-      "dates": "06/2018 - 06/2021",
-      "startDate": "2018-06",
-      "endDate": "2021-06",
-      "description": "Responsible for defining all user experience and human factor designs, which align to the global solutions strategy and roadmap for the Unified Offering Management group. The role collaborates with end users, internal subject matter experts, and engineering teams around the globe, to create solutions for a broad variety of market verticals.",
-      "featured": true
+      "company": "LN Webworks Private Limited",
+      "location": "Ludhiana, Punjab, India",
+      "title": "Software Developer (Drupal Developer)",
+      "dates": "08/2021 - 04/2024",
+      "startDate": "2021-08",
+      "endDate": "2024-04",
+      "type": "work",
+      "description": "Built and delivered scalable, high-performance Drupal and headless web applications across diverse client projects spanning property investment platforms, educational institutions, laboratory management systems, and e-commerce solutions. Led full development lifecycle from architecture and custom module development to deployment, performance optimization, and maintenance. Specialized in Headless/Decoupled Drupal with React, REST API integrations, and database optimization, consistently improving site performance and reducing deployment time through automation and server management.",
+      "featured": true,
+      "highlights": [
+        "Developed custom Drupal modules enabling dynamic, secure website architectures",
+        "Implemented Headless Drupal with React for enhanced UX and flexible front-end delivery",
+        "Integrated REST APIs and JSON data flows for multi-system communication",
+        "Optimized database queries, caching layers, and asset pipelines for improved performance",
+        "Created automation scripts for multisite deployment reducing deployment time significantly",
+        "Managed Linux server environments and troubleshot production issues",
+        "Built property investment platform, university site with complex student profile management, laboratory ticketing system, and e-commerce solutions"
+      ]
     },
     {
-      "company": "Form LLC",
-      "location": "Denver, CO",
-      "title": "Owner/Creative Director",
-      "dates": "10/2017 – 06/2018",
-      "startDate": "2017-10",
-      "endDate": "2018-06",
-      "description": "As the owner and Creative Director of Form, it was my job to craft engaging stories and experiences for my clients. Strategic shaping and aesthetic direction of campaign initiatives, branding, and story telling at all levels, played a large part of the assured quality of those things from start to finish.",
-      "featured": true
-    },
-    {
-      "company": "ProtectWise",
-      "location": "Denver, CO",
-      "title": "Creative Director",
-      "dates": "11/2016 – 10/2017",
-      "startDate": "2016-11",
-      "endDate": "2017-10",
-      "description": "I was Responsible for leading the traditional and digital experience design for all marketing needs. ProtectWise was a unique challenge, in that, they had already rebranded a couple times, so it was up to me and the marketing team to evolve the brand in a way that would soften the disconnect between new and old material. We ended up developing our own agile approach to design, similar to what development teams use. I was lucky enough to be able to partner up with Jake Sargeant and Legwork to produce some exceptional digital work, that we were all proud of.",
-      "featured": true
-    },
-    {
-      "company": "AgileData",
-      "location": "Denver, CO",
-      "title": "Developer Experience Engineer",
-      "dates": "08/2015 – 11/2016",
-      "startDate": "2015-08",
-      "endDate": "2016-11",
-      "featured": false
-    },
-    {
-      "company": "NCC Group",
-      "location": "San Francisco, CA",
-      "title": "Sr. UX/UI Designer",
-      "dates": "10/2014 – 08/2015",
-      "startDate": "2014-10",
-      "endDate": "2015-08",
-      "featured": false
-    },
-    {
-      "company": "Finish Line",
-      "location": "Boulder, CO",
-      "title": "Sr. Art Director",
-      "dates": "05/2013 – 10/2014",
-      "startDate": "2013-05",
-      "endDate": "2014-10",
-      "featured": false
-    },
-    {
-      "company": "Mondo Robot",
-      "location": "Boulder, CO",
-      "title": "Sr. Art Director",
-      "dates": "05/2011 – 05/2013",
-      "startDate": "2011-05",
-      "endDate": "2013-05",
-      "featured": false
-    },
-    {
-      "company": "Factory Design Labs",
-      "location": "Denver, CO",
-      "title": "Sr. Art Director",
-      "dates": "12/2008 – 05/2011",
-      "startDate": "2008-12",
-      "endDate": "2011-05",
-      "featured": false
-    },
-    {
-      "company": "Crispin Porter + Bogusky",
-      "location": "Boulder, CO",
-      "title": "Sr. Interactive Designer",
-      "dates": "06/2008 – 12/2008",
-      "startDate": "2008-06",
-      "endDate": "2008-12",
-      "featured": false
-    },
-    {
-      "company": "Texture Media",
-      "location": "Boulder, CO",
-      "title": "Art Director",
-      "dates": "03/2006 – 06/2008",
-      "startDate": "2006-03",
-      "endDate": "2008-06",
-      "featured": false
-    },
-    {
-      "company": "NOD interactive",
-      "location": "Boulder, CO",
-      "title": "Art Director",
-      "dates": "07/2004 – 01/2006",
-      "startDate": "2004-07",
-      "endDate": "2006-01",
-      "featured": false
-    },
-    {
-      "company": "Leopard",
-      "location": "Boulder, CO",
-      "title": "New Media Specialist",
-      "dates": "01/2002 – 07/2004",
-      "startDate": "2002-01",
-      "endDate": "2004-07",
-      "featured": false
-    },
-    {
-      "company": "Level 3 Communications",
-      "location": "Denver, CO",
-      "title": "Art Director",
-      "dates": "05/1999 – 10/2001",
-      "startDate": "1999-05",
-      "endDate": "2001-10",
-      "featured": false
-    },
-    {
-      "company": "Vannevar New Media",
-      "location": "Houston, TX",
-      "title": "New Media Designer",
-      "dates": "01/1997 – 05/1999",
-      "startDate": "1997-01",
-      "endDate": "1999-05",
-      "featured": false
+      "company": "I. K. Gujral Punjab Technical University",
+      "location": "Punjab, India",
+      "title": "Bachelor of Computer Applications",
+      "dates": "07/2017 - 11/2020",
+      "startDate": "2017-07",
+      "endDate": "2020-11",
+      "type": "education",
+      "description": "Completed Bachelor of Computer Applications (Second Class), developing strong foundation in computer science fundamentals, programming, software development, algorithms, databases, and system architecture. Gained hands-on experience with multiple programming languages including C, C++, Python, PHP, and Java. Coursework included Data Structures, Database Management Systems, Object-Oriented Programming, Web Development, and Computer System Architecture.",
+      "featured": true,
+      "highlights": [
+        "Solid foundation in computer science fundamentals and programming",
+        "Proficiency in C, C++, Python, PHP, Java, and web technologies",
+        "Strong understanding of data structures, algorithms, and database systems",
+        "Experience with web development and software engineering principles"
+      ]
     }
   ]
 }
