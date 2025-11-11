@@ -1,0 +1,25 @@
+{
+  "testimonials": [
+    {
+      "id": "alex-martinez",
+      "quote": "Jerimy has a rare ability to zoom from vision to pixels without losing anyone along the journey. He brings engineering into the conversation early, which meant we shipped a complex AI assistant on time—and our teams actually enjoyed the process.",
+      "name": "Alex Martinez",
+      "role": "VP of Product",
+      "company": "DataSphere Analytics"
+    },
+    {
+      "id": "divya-kapoor",
+      "quote": "Every workshop Jerimy leads ends with clarity. He translated a messy service ecosystem into a cohesive design system with contribution playbooks that our global team now relies on daily.",
+      "name": "Divya Kapoor",
+      "role": "Head of UX Research",
+      "company": "Precisely"
+    },
+    {
+      "id": "ryan-cole",
+      "quote": "From stakeholder storytelling to code-ready specs, Jerimy carries the torch. His prototypes helped us secure funding, and his partnership through QA ensured the experience we promised was the one we launched.",
+      "name": "Ryan Cole",
+      "role": "Sr. Director of Engineering",
+      "company": "Unified Cloud"
+    }
+  ]
+}

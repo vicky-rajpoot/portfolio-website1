@@ -17,6 +17,9 @@ class DataLoader {
             accolades: null,
             brands: null,
             aboutCarousel: null,
+            capabilities: null,
+            process: null,
+            testimonials: null,
             caseStudy: null
         };
         this.loaded = false;
@@ -56,8 +59,11 @@ class DataLoader {
             this.fetchJSON(`${this.basePath}skills.json`),
             this.fetchJSON(`${this.basePath}accolades.json`),
             this.fetchJSON(`${this.basePath}brands.json`),
-            this.fetchJSON(`${this.basePath}about-carousel.json`)
-        ]).then(([person, projects, experience, skills, accolades, brands, aboutCarousel]) => {
+            this.fetchJSON(`${this.basePath}about-carousel.json`),
+            this.fetchJSON(`${this.basePath}capabilities.json`),
+            this.fetchJSON(`${this.basePath}process.json`),
+            this.fetchJSON(`${this.basePath}testimonials.json`)
+        ]).then(([person, projects, experience, skills, accolades, brands, aboutCarousel, capabilities, process, testimonials]) => {
             this.data.person = person;
             this.data.projects = projects?.projects || [];
             this.data.experience = experience?.experience || [];
@@ -65,6 +71,9 @@ class DataLoader {
             this.data.accolades = accolades || { awards: [], features: [] };
             this.data.brands = brands?.brands || [];
             this.data.aboutCarousel = aboutCarousel?.carouselCards || [];
+            this.data.capabilities = capabilities?.capabilities || [];
+            this.data.process = process?.process || [];
+            this.data.testimonials = testimonials?.testimonials || [];
             this.loaded = true;
             return this.data;
         });
@@ -123,6 +132,18 @@ class DataLoader {
 
     getAboutCarousel() {
         return this.data.aboutCarousel;
+    }
+
+    getCapabilities() {
+        return this.data.capabilities || [];
+    }
+
+    getProcess() {
+        return this.data.process || [];
+    }
+
+    getTestimonials() {
+        return this.data.testimonials || [];
     }
 
     getCaseStudy() {
