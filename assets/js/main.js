@@ -48,6 +48,11 @@ document.addEventListener('DOMContentLoaded', async function() {
     initBrandLogos(); // Generate brand logos from JSON
     initAboutCarousel(); // Generate about carousel cards from JSON
     initAboutCarouselIndicators(); // Generate about carousel indicators from JSON
+    if (typeof initCapabilitiesGrid === 'function') initCapabilitiesGrid(); // Generate capabilities section
+    if (typeof initProcessSteps === 'function') initProcessSteps(); // Generate process section
+    if (typeof initExperienceHighlights === 'function') initExperienceHighlights(); // Generate experience highlights
+    if (typeof initSkillsPreview === 'function') initSkillsPreview(); // Generate skills preview
+    if (typeof initTestimonialsGrid === 'function') initTestimonialsGrid(); // Generate testimonials
     initExperienceTimeline(); // Generate experience timeline for resume page
     initSkillsGrid(); // Generate skills grid for resume page
     initAccolades(); // Generate accolades for resume page

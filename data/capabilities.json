@@ -1,0 +1,70 @@
+{
+  "capabilities": [
+    {
+      "id": "design-systems",
+      "label": "Design Systems",
+      "title": "Unified Design System Ops",
+      "description": "Builds resilient multi-product systems that keep engineering velocity high without sacrificing craft.",
+      "points": [
+        "Establishes token-driven theming across SaaS, desktop, and hybrid deployments.",
+        "Sets up contribution models with guardrails so every team can ship without creating drift.",
+        "Pairs documentation with living Figma and code kits to keep parity transparent."
+      ]
+    },
+    {
+      "id": "ai-strategy",
+      "label": "AI & ML",
+      "title": "Responsible AI Experience Strategy",
+      "description": "Shapes trustworthy human-in-the-loop experiences that blend automation with progressive disclosure.",
+      "points": [
+        "Maps user intent against model capabilities to define the right assist moments.",
+        "Runs lightweight experiment loops that validate value before engineering heavy lift.",
+        "Designs guardrails, explanations, and failsafes that keep teams aligned with compliance."
+      ]
+    },
+    {
+      "id": "product-evolution",
+      "label": "Product",
+      "title": "Product Vision & Roadmapping",
+      "description": "Clarifies the path from vision deck to prioritized backlog with measurable outcomes.",
+      "points": [
+        "Leads cross-functional workshops that translate strategy into actionable bets.",
+        "Defines north-star journeys alongside near-term experiments to de-risk investment.",
+        "Creates storytelling artifacts that align execs, sales, and delivery on why it matters."
+      ]
+    },
+    {
+      "id": "research",
+      "label": "Research",
+      "title": "Evidence-Driven Research Ops",
+      "description": "Turns qualitative signal and behavioral data into decision frameworks teams trust.",
+      "points": [
+        "Builds rolling discovery programs that keep customer insight flowing into roadmap.",
+        "Operationalizes research libraries and tagging so findings stay searchable and sharable.",
+        "Pairs continuous listening with quant dashboards to track experience health."
+      ]
+    },
+    {
+      "id": "enablement",
+      "label": "Leadership",
+      "title": "Team Enablement & Coaching",
+      "description": "Grows hybrid teams with rituals, tooling, and mentorship that elevate the whole practice.",
+      "points": [
+        "Designs onboarding frameworks that transfer context quickly to new contributors.",
+        "Coaches designers, engineers, and PMs toward shared language and delivery rhythms.",
+        "Builds portfolio review cadences and lightweight playbooks that scale."
+      ]
+    },
+    {
+      "id": "delivery",
+      "label": "Delivery",
+      "title": "End-to-End Delivery Partnership",
+      "description": "Stays hands-on from discovery to launch so quality holds through every sprint.",
+      "points": [
+        "Pairs with engineering on feasibility spikes, design QA, and performance guardrails.",
+        "Keeps backlog groomed with story-level acceptance criteria and empty-state thinking.",
+        "Measures adoption post-launch and feeds the loop back into the roadmap."
+      ]
+    }
+  ]
+}

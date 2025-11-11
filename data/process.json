@@ -1,0 +1,32 @@
+{
+  "process": [
+    {
+      "id": "discover",
+      "step": "01",
+      "title": "Discover & Align",
+      "description": "Frame business goals, uncover user realities, and build a shared definition of success with leadership and delivery teams.",
+      "meta": "2-3 weeks • workshops & field interviews"
+    },
+    {
+      "id": "define",
+      "step": "02",
+      "title": "Define the Bets",
+      "description": "Translate insight into opportunity areas, experience principles, and prioritized experiments that ladder back to measurable outcomes.",
+      "meta": "1-2 weeks • journey mapping & hypothesis stacks"
+    },
+    {
+      "id": "design",
+      "step": "03",
+      "title": "Design & Prototype",
+      "description": "Create layered prototypes—from service blueprints to polished UI—that bring the future state to life and gather fast validation.",
+      "meta": "3-4 weeks • rapid prototyping & mixed-method testing"
+    },
+    {
+      "id": "deliver",
+      "step": "04",
+      "title": "Deliver & Iterate",
+      "description": "Pair with engineering to launch confidently, measure adoption in the wild, and feed learning loops back into the roadmap.",
+      "meta": "Ongoing • build partnerships & outcome tracking"
+    }
+  ]
+}

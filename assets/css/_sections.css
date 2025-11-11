@@ -565,6 +565,291 @@ body[data-theme="dark"] .logo-dark {
     background: rgba(255, 255, 255, 0.2);
 }
 
+/* ==========================================
+   Home Essentials Sections
+   ========================================== */
+.capabilities,
+.process,
+.experience-highlights,
+.skills-preview,
+.testimonials {
+    padding: 120px 0;
+}
+
+.section-intro {
+    max-width: 760px;
+    margin: 0 auto 64px;
+    text-align: center;
+}
+
+.section-intro .section-title {
+    margin-bottom: 16px;
+}
+
+.section-intro .section-subtitle {
+    margin-bottom: 0;
+}
+
+/* Capabilities */
+.capabilities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+}
+
+.capability-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    color: var(--text-primary);
+}
+
+.capability-card .capability-pill {
+    align-self: flex-start;
+    padding: 6px 16px;
+    border-radius: 999px;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: var(--font-weight-semibold);
+    background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+    color: var(--color-accent);
+}
+
+[data-theme="dark"] .capability-card .capability-pill {
+    background: color-mix(in srgb, var(--color-accent) 18%, transparent);
+    color: var(--color-accent);
+}
+
+.capability-card h3 {
+    font-size: 22px;
+    font-weight: var(--font-weight-medium);
+    color: var(--text-primary);
+    margin-bottom: 0;
+}
+
+.capability-card p {
+    color: var(--text-secondary);
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.capability-points {
+    margin-top: auto;
+    padding-left: 20px;
+    color: var(--text-secondary);
+}
+
+.capability-points li {
+    margin-bottom: 8px;
+}
+
+.capability-points li:last-child {
+    margin-bottom: 0;
+}
+
+/* Process */
+.process-steps {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 32px;
+}
+
+.process-step {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.process-step-number {
+    font-family: var(--font-family-mono);
+    font-size: 14px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-accent);
+}
+
+.process-step h3 {
+    font-size: 20px;
+    font-weight: var(--font-weight-semibold);
+    margin-bottom: 0;
+    color: var(--text-primary);
+}
+
+.process-step p {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.process-step .process-meta {
+    margin-top: auto;
+    font-size: 13px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+}
+
+/* Experience Highlights */
+.experience-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+}
+
+.experience-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.experience-card .experience-dates {
+    font-family: var(--font-family-mono);
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--text-tertiary);
+}
+
+.experience-card h3 {
+    font-size: 20px;
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+    margin-bottom: 0;
+}
+
+.experience-card .experience-role {
+    font-size: 16px;
+    font-weight: var(--font-weight-medium);
+    color: var(--color-accent);
+}
+
+.experience-card p {
+    color: var(--text-secondary);
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.section-cta {
+    margin-top: 48px;
+    text-align: center;
+}
+
+/* Skills Preview */
+.skills-pill-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+}
+
+.skill-pill {
+    padding: 14px 24px;
+    border-radius: 999px;
+    background: var(--bg-overlay-light);
+    border: 1px solid color-mix(in srgb, var(--color-accent) 25%, transparent);
+    color: var(--text-primary);
+    font-size: 15px;
+    font-weight: var(--font-weight-medium);
+    backdrop-filter: var(--blur-sm);
+    -webkit-backdrop-filter: var(--blur-sm);
+    transition: transform var(--transition-base), border-color var(--transition-base);
+}
+
+.skill-pill:hover {
+    transform: translateY(-4px);
+    border-color: var(--color-accent);
+}
+
+[data-theme="dark"] .skill-pill {
+    background: rgba(255, 255, 255, 0.06);
+    color: var(--text-primary);
+    border-color: color-mix(in srgb, var(--color-accent) 35%, transparent);
+}
+
+/* Testimonials */
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+}
+
+.testimonial-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.testimonial-quote {
+    font-size: 20px;
+    line-height: 1.7;
+    color: var(--text-primary);
+    font-weight: var(--font-weight-regular);
+}
+
+.testimonial-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    color: var(--text-secondary);
+    font-size: 15px;
+}
+
+.testimonial-name {
+    font-weight: var(--font-weight-semibold);
+    color: var(--text-primary);
+}
+
+.testimonial-role {
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: var(--text-tertiary);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .capabilities-grid,
+    .process-steps,
+    .experience-grid,
+    .testimonials-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .capabilities,
+    .process,
+    .experience-highlights,
+    .skills-preview,
+    .testimonials {
+        padding: 80px 0;
+    }
+
+    .section-intro {
+        margin-bottom: 48px;
+    }
+
+    .capabilities-grid,
+    .process-steps,
+    .experience-grid,
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+        gap: 24px;
+    }
+
+    .skill-pill {
+        width: 100%;
+        text-align: center;
+    }
+}
+
 /* Style Guide Specific */
 .header {
     text-align: center;
