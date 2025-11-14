@@ -1,69 +1,135 @@
 {
   "capabilities": [
     {
-      "id": "design-systems",
-      "label": "Design Systems",
-      "title": "Unified Design System Ops",
-      "description": "Builds resilient multi-product systems that keep engineering velocity high without sacrificing craft.",
+      "id": "machine-learning",
+      "label": "Machine Learning",
+      "title": "End-to-End ML Pipeline Development",
+      "description": "Designs, trains, and deploys production-ready machine learning models that solve real-world problems with measurable impact.",
       "points": [
-        "Establishes token-driven theming across SaaS, desktop, and hybrid deployments.",
-        "Sets up contribution models with guardrails so every team can ship without creating drift.",
-        "Pairs documentation with living Figma and code kits to keep parity transparent."
+        "Builds supervised and unsupervised learning pipelines using TensorFlow, PyTorch, and Scikit-learn.",
+        "Applies ensemble techniques, feature engineering, and hyperparameter optimization for model performance.",
+        "Implements model evaluation frameworks with cross-validation, A/B testing, and performance monitoring."
       ]
     },
     {
-      "id": "ai-strategy",
-      "label": "AI & ML",
-      "title": "Responsible AI Experience Strategy",
-      "description": "Shapes trustworthy human-in-the-loop experiences that blend automation with progressive disclosure.",
+      "id": "deep-learning",
+      "label": "Deep Learning",
+      "title": "Advanced Neural Network Architectures",
+      "description": "Develops sophisticated deep learning systems using CNNs, RNNs, Transformers, and attention mechanisms for complex pattern recognition.",
       "points": [
-        "Maps user intent against model capabilities to define the right assist moments.",
-        "Runs lightweight experiment loops that validate value before engineering heavy lift.",
-        "Designs guardrails, explanations, and failsafes that keep teams aligned with compliance."
+        "Designs CNN architectures for computer vision tasks including image classification, object detection, and facial recognition.",
+        "Implements RNN and LSTM networks for sequence modeling, time-series analysis, and natural language processing.",
+        "Leverages Transformer architectures and attention mechanisms for state-of-the-art NLP and multimodal applications."
       ]
     },
     {
-      "id": "product-evolution",
-      "label": "Product",
-      "title": "Product Vision & Roadmapping",
-      "description": "Clarifies the path from vision deck to prioritized backlog with measurable outcomes.",
+      "id": "model-optimization",
+      "label": "Optimization",
+      "title": "Model Optimization & Deployment",
+      "description": "Optimizes ML models for production environments through quantization, pruning, and efficient inference strategies.",
       "points": [
-        "Leads cross-functional workshops that translate strategy into actionable bets.",
-        "Defines north-star journeys alongside near-term experiments to de-risk investment.",
-        "Creates storytelling artifacts that align execs, sales, and delivery on why it matters."
+        "Applies 4-bit and 8-bit quantization to reduce model size while maintaining accuracy.",
+        "Implements model compression techniques including pruning and knowledge distillation.",
+        "Designs efficient inference pipelines for edge devices and cloud deployment scenarios."
       ]
     },
     {
-      "id": "research",
-      "label": "Research",
-      "title": "Evidence-Driven Research Ops",
-      "description": "Turns qualitative signal and behavioral data into decision frameworks teams trust.",
+      "id": "computer-vision",
+      "label": "Computer Vision",
+      "title": "Visual Intelligence Systems",
+      "description": "Builds intelligent computer vision systems for image analysis, object detection, and visual pattern recognition.",
       "points": [
-        "Builds rolling discovery programs that keep customer insight flowing into roadmap.",
-        "Operationalizes research libraries and tagging so findings stay searchable and sharable.",
-        "Pairs continuous listening with quant dashboards to track experience health."
+        "Develops CNN-based architectures for image classification, segmentation, and feature extraction.",
+        "Implements attention mechanisms for enhanced spatial feature learning and interpretation.",
+        "Applies transfer learning and fine-tuning strategies for domain-specific vision tasks."
       ]
     },
     {
-      "id": "enablement",
-      "label": "Leadership",
-      "title": "Team Enablement & Coaching",
-      "description": "Grows hybrid teams with rituals, tooling, and mentorship that elevate the whole practice.",
+      "id": "nlp",
+      "label": "NLP",
+      "title": "Natural Language Processing",
+      "description": "Creates intelligent NLP systems using Transformers, BERT, and Large Language Models for text understanding and generation.",
       "points": [
-        "Designs onboarding frameworks that transfer context quickly to new contributors.",
-        "Coaches designers, engineers, and PMs toward shared language and delivery rhythms.",
-        "Builds portfolio review cadences and lightweight playbooks that scale."
+        "Implements Transformer architectures and pre-trained models (BERT, GPT) for text analysis.",
+        "Develops embeddings and semantic understanding systems for document classification and sentiment analysis.",
+        "Fine-tunes Large Language Models for domain-specific tasks and conversational AI applications."
       ]
     },
     {
-      "id": "delivery",
-      "label": "Delivery",
-      "title": "End-to-End Delivery Partnership",
-      "description": "Stays hands-on from discovery to launch so quality holds through every sprint.",
+      "id": "full-stack-development",
+      "label": "Full-Stack",
+      "title": "Production-Grade Web Applications",
+      "description": "Architects and builds scalable, high-performance web applications with modern frameworks and best practices.",
       "points": [
-        "Pairs with engineering on feasibility spikes, design QA, and performance guardrails.",
-        "Keeps backlog groomed with story-level acceptance criteria and empty-state thinking.",
-        "Measures adoption post-launch and feeds the loop back into the roadmap."
+        "Develops custom Drupal modules, REST APIs, and headless CMS architectures for flexible content delivery.",
+        "Builds responsive React front-ends with optimized component architecture and state management.",
+        "Implements secure authentication, role-based access control, and database optimization strategies."
+      ]
+    },
+    {
+      "id": "api-architecture",
+      "label": "APIs",
+      "title": "API-Driven Architecture & Integration",
+      "description": "Designs RESTful APIs and integrates complex systems for seamless data flow and service communication.",
+      "points": [
+        "Architects RESTful APIs with JSON data flows for multi-system communication.",
+        "Integrates third-party services including payment gateways, authentication providers, and external platforms.",
+        "Implements API security, rate limiting, and comprehensive error handling mechanisms."
+      ]
+    },
+    {
+      "id": "devops",
+      "label": "DevOps",
+      "title": "Cloud Infrastructure & Automation",
+      "description": "Manages cloud deployments, CI/CD pipelines, and infrastructure automation for reliable production systems.",
+      "points": [
+        "Deploys applications on Microsoft Azure with scalable cloud architecture.",
+        "Creates automation scripts for deployment workflows, reducing manual effort and errors.",
+        "Implements Docker containerization, Linux server management, and CI/CD fundamentals."
+      ]
+    },
+    {
+      "id": "data-engineering",
+      "label": "Data Engineering",
+      "title": "Data Pipeline & Analytics Infrastructure",
+      "description": "Builds efficient data pipelines and analytics systems for processing and analyzing large-scale datasets.",
+      "points": [
+        "Designs database schemas and optimizes queries for high-performance data retrieval.",
+        "Implements data warehousing solutions for big data analytics and business intelligence.",
+        "Creates ETL pipelines for data extraction, transformation, and loading workflows."
+      ]
+    },
+    {
+      "id": "ai-integration",
+      "label": "AI Integration",
+      "title": "Intelligent System Integration",
+      "description": "Bridges ML models with production applications, creating seamless AI-powered user experiences.",
+      "points": [
+        "Integrates trained ML models into web applications with efficient inference pipelines.",
+        "Designs user interfaces that explain AI decisions and build trust through transparency.",
+        "Implements real-time prediction systems with optimized latency and scalability."
+      ]
+    },
+    {
+      "id": "problem-solving",
+      "label": "Problem Solving",
+      "title": "Analytical Thinking & Solution Design",
+      "description": "Approaches complex technical challenges with structured analysis and innovative solution design.",
+      "points": [
+        "Breaks down ambiguous problems into actionable technical requirements.",
+        "Evaluates trade-offs between different approaches considering performance, maintainability, and scalability.",
+        "Documents solutions with clear technical specifications and comprehensive testing strategies."
+      ]
+    },
+    {
+      "id": "collaboration",
+      "label": "Collaboration",
+      "title": "Cross-Functional Team Leadership",
+      "description": "Communicates effectively across technical and non-technical stakeholders to deliver successful projects.",
+      "points": [
+        "Translates technical concepts into clear explanations for diverse audiences.",
+        "Collaborates with product teams to align technical solutions with business objectives.",
+        "Mentors junior developers and shares knowledge through documentation and code reviews."
       ]
     }
   ]

@@ -1,79 +1,130 @@
 {
   "skillCategories": [
     {
-      "category": "Computer",
-      "title": "Computer",
-      "description": "Basically, whatever it takes to get the job done ;). Proficient on both MAC and PC.",
-      "skills": [
-        "AI / Vibe Coding",
-        "Terminal",
-        "Figma",
-        "Adobe Creative Cloud (All)",
-        "Sketch",
-        "Apple",
-        "Microsoft"
-      ]
-    },
-    {
-      "category": "Creative",
-      "title": "Creative",
-      "skills": [
-        "Concepting",
-        "Usability & Wireframing",
-        "Interactive & Print",
-        "Logo & Identity",
-        "Typography",
-        "Icons & Information Systems",
-        "Storyboarding",
-        "Illustration",
-        "Motion",
-        "Audio Editing & Production",
-        "Some 3D"
-      ]
-    },
-    {
-      "category": "Development",
-      "title": "Development",
+      "category": "AI & Machine Learning",
+      "title": "AI & Machine Learning",
+      "description": "Building and deploying intelligent systems with state-of-the-art ML/DL techniques",
       "skillLevels": {
         "Expert": [
-          "HTML",
-          "CSS",
-          "JavaScript",
-          "jQuery",
-          "WordPress",
-          "Bootstrap",
-          "Sass",
-          "Less"
+          "Python",
+          "TensorFlow",
+          "PyTorch",
+          "Scikit-learn",
+          "Pandas",
+          "NumPy"
+        ],
+        "Advanced": [
+          "Keras",
+          "Computer Vision (CNNs)",
+          "NLP & Transformers",
+          "RNNs & LSTMs",
+          "Model Optimization",
+          "Quantization (4-bit/8-bit)"
         ],
         "Intermediate": [
-          "Ruby",
-          "Ember",
-          "Play",
-          "Gulp",
-          "Git",
-          "NPM",
-          "Node",
-          "Jekyll"
-        ],
-        "Beginner": [
-          "Objective-C",
-          "Java",
-          "Angular",
-          "React"
+          "Large Language Models (LLMs)",
+          "BERT & GPT Models",
+          "Embeddings",
+          "Google Colab",
+          "Kaggle",
+          "Matplotlib"
         ]
       }
     },
     {
-      "category": "Management",
-      "title": "Management",
+      "category": "Full-Stack Development",
+      "title": "Full-Stack Development",
+      "description": "Building scalable, high-performance web applications and APIs",
+      "skillLevels": {
+        "Expert": [
+          "Drupal",
+          "PHP",
+          "MySQL",
+          "JavaScript",
+          "HTML/CSS",
+          "REST APIs",
+          "JSON"
+        ],
+        "Advanced": [
+          "React",
+          "jQuery",
+          "Git",
+          "Composer",
+          "Linux",
+          "Headless CMS Architecture"
+        ],
+        "Intermediate": [
+          "Docker",
+          "CI/CD",
+          "Postman API",
+          "Ajax",
+          "Bitbucket",
+          "Module Development"
+        ]
+      }
+    },
+    {
+      "category": "Cloud & DevOps",
+      "title": "Cloud & DevOps",
+      "description": "Deploying and maintaining scalable cloud infrastructure",
       "skills": [
-        "Team Building",
-        "Leadership",
-        "Problem Solving",
-        "Communication",
-        "Adaptability",
-        "Time Management",
-        "Presentation"
+        "Microsoft Azure",
+        "Azure SQL",
+        "Cloud Computing",
+        "Docker",
+        "Linux Server Management",
+        "CI/CD Fundamentals",
+        "IoT Integration"
+      ]
+    },
+    {
+      "category": "Data Science & Analytics",
+      "title": "Data Science & Analytics",
+      "description": "Analyzing and visualizing complex datasets to drive insights",
+      "skills": [
+        "Data Structures & Algorithms",
+        "Data Warehousing",
+        "Big Data",
+        "Database Management (DBMS)",
+        "Statistical Analysis",
+        "Feature Engineering",
+        "Model Evaluation & Testing"
+      ]
+    },
+    {
+      "category": "Programming Languages",
+      "title": "Programming Languages",
+      "description": "Proficient across multiple programming paradigms",
+      "skillLevels": {
+        "Expert": [
+          "Python",
+          "PHP",
+          "JavaScript"
+        ],
+        "Advanced": [
+          "SQL",
+          "C++",
+          "C"
+        ],
+        "Intermediate": [
+          "Java",
+          "Shell Scripting"
+        ]
+      }
+    },
+    {
+      "category": "Professional Skills",
+      "title": "Professional Skills",
+      "description": "Soft skills that drive successful project delivery",
+      "skills": [
+        "Problem Solving & Debugging",
+        "Full-Stack Solution Design",
+        "API-Driven Architecture",
+        "Cross-Team Communication",
+        "Project Management",
+        "Research Methodology",
+        "Technical Documentation",
+        "Agile Development"
       ]
     }
   ]

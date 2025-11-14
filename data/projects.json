@@ -1,200 +1,333 @@
 {
   "projects": [
     {
-      "id": "design-system",
-      "title": "Design System",
-      "subtitle": "Creating unified experiences across a complex product ecosystem",
-      "description": "Building a comprehensive design system that covers a suite of products from SaaS to on-prem, unifying product, UX and Dev teams while embedding accessibility standards throughout the organization.",
-      "url": "design-system.html",
-      "ariaLabel": "View Design System Case Study",
-      "category": "Design Systems",
-      "year": 2024,
-      "tags": ["UX", "Design Systems", "Accessibility", "Enterprise Software", "Design Tokens", "Component Library"],
+      "id": "deepfake-detection",
+      "title": "Deepfake Detection System",
+      "subtitle": "Advanced AI system for detecting manipulated media using hybrid deep learning",
+      "description": "Developed a sophisticated Deepfake Detection system using a hybrid CNN + Multi-Head Self-Attention architecture that significantly improves detection accuracy and robustness across diverse datasets. The system combines convolutional neural networks for feature extraction with multi-head self-attention mechanisms for enhanced pattern recognition, achieving superior performance in identifying manipulated videos and images.",
+      "url": "#",
+      "ariaLabel": "View Deepfake Detection System Project",
+      "category": "AI/ML & Computer Vision",
+      "year": 2025,
+      "tags": ["Deep Learning", "Computer Vision", "CNN", "Transformers", "PyTorch", "Model Optimization"],
       "seo": {
-        "metaDescription": "Unifying enterprise product experiences through a comprehensive design system with accessibility as a foundational standard.",
-        "ogImage": "https://jerimybrown.com/assets/images/preview/home-preview.png"
+        "metaDescription": "Advanced deepfake detection system using hybrid CNN and Multi-Head Self-Attention architecture for robust media authenticity verification.",
+        "ogImage": "https://via.placeholder.com/1200x630"
       },
       "metrics": {
-        "role": "UX Director / Designer",
-        "timeline": "18 months",
-        "team": "2 UX, 2 Devs"
+        "role": "AI/ML Engineer",
+        "timeline": "6 months",
+        "team": "Individual Research Project"
       },
       "featuredImages": [
-        { "filename": "design-system-featured-1", "alt": "Enterprise design system overview" },
-        { "filename": "design-system-featured-2", "alt": "Atomic design methodology and component structure" },
-        { "filename": "design-system-featured-3", "alt": "Cross-platform design tokens and theming" },
-        { "filename": "design-system-featured-4", "alt": "Custom icon library with 500+ icons" },
-        { "filename": "design-system-featured-5", "alt": "Reusable UI components and patterns" },
-        { "filename": "design-system-featured-6", "alt": "Documentation and implementation guidelines" },
-        { "filename": "design-system-featured-7", "alt": "Design system adoption and impact metrics" }
+        { "filename": "deepfake-1", "alt": "Deepfake detection system architecture" },
+        { "filename": "deepfake-2", "alt": "CNN and attention mechanism hybrid model" },
+        { "filename": "deepfake-3", "alt": "Model performance and accuracy metrics" }
       ],
       "carouselMetadata": [
         {
           "label1": "Role",
-          "value1": "UX Director / Designer",
+          "value1": "AI/ML Engineer",
+          "label2": "Timeline",
+          "value2": "6 months",
+          "label3": "Team",
+          "value3": "Individual Research"
+        },
+        {
+          "label1": "Architecture",
+          "value1": "Hybrid CNN + Multi-Head Self-Attention model combining spatial feature extraction with attention-based pattern recognition"
+        },
+        {
+          "label1": "Performance",
+          "value1": "Achieved improved detection accuracy across multiple benchmark datasets with enhanced robustness to diverse manipulation techniques"
+        },
+        {
+          "label1": "Optimization",
+          "value1": "Applied model quantization and optimization techniques for efficient inference and practical deployment scenarios"
+        }
+      ],
+      "highlights": [
+        "Designed and implemented hybrid CNN-MHSA architecture using PyTorch",
+        "Trained and validated on multiple datasets including FaceForensics++, Celeb-DF, and DFDC",
+        "Achieved superior accuracy through enhanced feature extraction and attention mechanisms",
+        "Applied 4-bit and 8-bit quantization for optimized inference performance",
+        "Conducted extensive ablation studies to validate architectural decisions",
+        "Demonstrated robustness against various deepfake generation techniques"
+      ]
+    },
+    {
+      "id": "headless-drupal-platform",
+      "title": "Headless CMS Architecture",
+      "subtitle": "Modern decoupled architecture enabling flexible, scalable content delivery",
+      "description": "Architected and implemented a Headless/Decoupled Drupal platform with React front-end, delivering superior performance, flexibility, and user experience across multiple client projects. The solution separates content management from presentation, enabling API-driven architecture that supports multi-channel content delivery, improved developer workflow, and enhanced scalability.",
+      "url": "#",
+      "ariaLabel": "View Headless Drupal Platform Project",
+      "category": "Full-Stack Development",
+      "year": 2023,
+      "tags": ["Drupal", "React", "REST API", "Headless CMS", "JavaScript", "PHP"],
+      "seo": {
+        "metaDescription": "Modern headless CMS architecture using Drupal and React for flexible, scalable content delivery across multiple platforms.",
+        "ogImage": "https://via.placeholder.com/1200x630"
+      },
+      "metrics": {
+        "role": "Full-Stack Developer",
+        "timeline": "18 months",
+        "team": "Development Team Lead"
+      },
+      "featuredImages": [
+        { "filename": "headless-1", "alt": "Headless CMS architecture diagram" },
+        { "filename": "headless-2", "alt": "React front-end implementation" },
+        { "filename": "headless-3", "alt": "API integration and performance metrics" }
+      ],
+      "carouselMetadata": [
+        {
+          "label1": "Role",
+          "value1": "Full-Stack Developer",
           "label2": "Timeline",
           "value2": "18 months",
           "label3": "Team",
-          "value3": "2 UX, 2 Devs"
+          "value3": "Lead Developer"
         },
         {
-          "label1": "Methodology",
-          "value1": "Atomic design approach with component-based architecture"
+          "label1": "Architecture",
+          "value1": "Decoupled Drupal backend with React front-end, connected via RESTful APIs and JSON data flows"
         },
         {
-          "label1": "Tokens",
-          "value1": "Cross-platform design tokens for unified brand experience"
+          "label1": "Performance",
+          "value1": "Achieved 60% improvement in page load times and enhanced scalability through optimized caching strategies"
         },
         {
-          "label1": "Icons",
-          "value1": "500+ consistent visual elements giving our organization total ownership over the set"
-        },
-        {
-          "label1": "Responsive Components",
-          "value1": "136 documented UI elements used by 29 teams"
-        },
-        {
-          "label1": "Templates",
-          "value1": "Templates streamline the UX design process across teams"
-        },
-        {
-          "label1": "Accessibility",
-          "value1": "Accessibility in our system ensures inclusive, high-quality experiences for our entire user base"
+          "label1": "Flexibility",
+          "value1": "Multi-channel content delivery supporting web, mobile, and third-party platform integration"
         }
+      ],
+      "highlights": [
+        "Designed API-first architecture enabling flexible front-end delivery",
+        "Implemented custom Drupal modules for REST API endpoints and content models",
+        "Built responsive React front-end with optimized component architecture",
+        "Integrated JWT authentication and secure API communication",
+        "Reduced page load times by 60% through strategic caching and optimization",
+        "Enabled multi-channel content delivery across platforms"
       ]
     },
     {
-      "id": "product-suite",
-      "title": "Hybrid Product Suite",
-      "subtitle": "Building foundational UX patterns for scalable growth",
-      "description": "Leading the end-to-end design of a new product ecosystem from concept to launch, establishing foundational UX patterns and information architecture for scalable growth.",
-      "url": "product-suite.html",
-      "ariaLabel": "View hybrid Product Suite Case Study",
-      "category": "Product Design",
-      "year": 2024,
-      "tags": ["UX", "Product Design", "Information Architecture", "SaaS", "Hybrid Deployment"],
+      "id": "university-management-system",
+      "title": "University Management Platform",
+      "subtitle": "Comprehensive educational institution platform managing thousands of student profiles",
+      "description": "Developed a large-scale university management system handling complex student profiles, course management, enrollment workflows, and administrative operations for thousands of users. The platform provides robust role-based access control, automated workflows, and scalable architecture to support the diverse operational needs of a modern educational institution.",
+      "url": "#",
+      "ariaLabel": "View University Management Platform Project",
+      "category": "Enterprise Web Application",
+      "year": 2023,
+      "tags": ["Drupal", "PHP", "MySQL", "Custom Modules", "Enterprise Architecture", "Scalability"],
       "seo": {
-        "metaDescription": "Leading the end-to-end design of a hybrid product ecosystem from concept to launch, establishing foundational UX patterns for scalable growth.",
-        "ogImage": "https://jerimybrown.com/assets/images/preview/home-preview.png"
+        "metaDescription": "Enterprise-scale university management system handling complex student operations, course management, and administrative workflows.",
+        "ogImage": "https://via.placeholder.com/1200x630"
       },
       "metrics": {
-        "role": "UX Director / Designer",
-        "timeline": "36 months",
-        "team": "16 UX, 20 Dev, 8 PO"
+        "role": "Software Developer",
+        "timeline": "12 months",
+        "team": "Core Development Team"
       },
       "featuredImages": [
-        { "filename": "product-feature-1", "alt": "Hybrid product suite overview" },
-        { "filename": "product-feature-2", "alt": "Component system and patterns" },
-        { "filename": "product-feature-3", "alt": "AI integration strategy" },
-        { "filename": "product-feature-4", "alt": "Progressive disclosure and modalities" }
+        { "filename": "university-1", "alt": "University platform dashboard" },
+        { "filename": "university-2", "alt": "Student profile management system" },
+        { "filename": "university-3", "alt": "Course enrollment workflows" }
       ],
       "carouselMetadata": [
         {
           "label1": "Role",
-          "value1": "UX Director / Designer",
+          "value1": "Software Developer",
           "label2": "Timeline",
-          "value2": "36 months",
-          "label3": "Team",
-          "value3": "16 UX, 20 Dev, 8 PO"
+          "value2": "12 months",
+          "label3": "Scale",
+          "value3": "1000+ users"
         },
         {
-          "label1": "Component System",
-          "value1": "Unified system harmonizing patterns into modern, reusable components"
+          "label1": "Features",
+          "value1": "Student profiles, course management, enrollment workflows, grade tracking, and administrative dashboards"
         },
         {
-          "label1": "AI Integration",
-          "value1": "Earning trust through gradual AI adoption—starting with writing assistance, advancing to automation"
+          "label1": "Architecture",
+          "value1": "Custom Drupal modules with optimized database design for handling complex relationships and large datasets"
         },
         {
-          "label1": "Progressive Disclosure",
-          "value1": "Progressive disclosure and application modalities reduce cognitive load by selectively hiding unneeded UI when user is focused on a task"
+          "label1": "Security",
+          "value1": "Role-based access control, secure authentication, and data protection compliance"
         }
+      ],
+      "highlights": [
+        "Managed complex data relationships for thousands of student profiles",
+        "Developed custom enrollment and course management workflows",
+        "Implemented role-based permissions system for administrators, faculty, and students",
+        "Optimized database queries for improved performance with large datasets",
+        "Integrated third-party authentication and notification systems",
+        "Built reporting and analytics dashboards for administrative insights"
       ]
     },
     {
-      "id": "ai-strategy",
-      "title": "AI Design Strategy",
-      "subtitle": "Making complex automation feel intuitive and trustworthy",
-      "description": "Designing intelligent user experiences that seamlessly integrate AI capabilities into existing workflows, making complex automation feel intuitive and trustworthy.",
-      "url": "ai-strategy.html",
-      "ariaLabel": "View AI Product Design Strategy Case Study",
-      "category": "AI/ML Design",
-      "year": 2024,
-      "tags": ["AI/ML", "Product Design", "UX Strategy", "Trust Design", "Automation"],
+      "id": "property-investment-platform",
+      "title": "Property Investment Platform",
+      "subtitle": "Innovative platform connecting investors with real estate opportunities",
+      "description": "Built a comprehensive property investment platform enabling users to browse, analyze, and invest in real estate opportunities. The system features sophisticated search and filtering, detailed property analytics, secure transaction processing, and investor portfolio management, providing a seamless experience from property discovery to investment completion.",
+      "url": "#",
+      "ariaLabel": "View Property Investment Platform Project",
+      "category": "FinTech & Real Estate",
+      "year": 2022,
+      "tags": ["Drupal", "PHP", "MySQL", "Financial Systems", "Secure Transactions", "REST APIs"],
       "seo": {
-        "metaDescription": "Designing intelligent user experiences that seamlessly integrate AI capabilities into existing workflows, making complex automation feel intuitive and trustworthy.",
-        "ogImage": "https://jerimybrown.com/assets/images/preview/home-preview.png"
+        "metaDescription": "Modern property investment platform with secure transactions, portfolio management, and real-time property analytics.",
+        "ogImage": "https://via.placeholder.com/1200x630"
       },
       "metrics": {
-        "role": "UX Director / Designer",
-        "timeline": "3 months",
-        "team": "3 UX, 4 Dev, 3 PO"
+        "role": "Software Developer",
+        "timeline": "10 months",
+        "team": "Full-Stack Developer"
       },
       "featuredImages": [
-        { "filename": "ai-1", "alt": "AI product strategy overview" },
-        { "filename": "ai-2", "alt": "AI design patterns for building trust" },
-        { "filename": "ai-3", "alt": "Trust building release cycle" }
+        { "filename": "property-1", "alt": "Property investment platform overview" },
+        { "filename": "property-2", "alt": "Property search and filtering" },
+        { "filename": "property-3", "alt": "Investment portfolio dashboard" }
       ],
       "carouselMetadata": [
         {
           "label1": "Role",
-          "value1": "UX Director / Designer",
+          "value1": "Software Developer",
+          "label2": "Timeline",
+          "value2": "10 months",
+          "label3": "Type",
+          "value3": "FinTech Platform"
+        },
+        {
+          "label1": "Features",
+          "value1": "Property listings, investment analytics, secure transactions, portfolio management, and investor dashboards"
+        },
+        {
+          "label1": "Security",
+          "value1": "PCI-compliant payment processing, encrypted data storage, and secure authentication mechanisms"
+        },
+        {
+          "label1": "Integration",
+          "value1": "REST API integrations with payment gateways, property data providers, and financial systems"
+        }
+      ],
+      "highlights": [
+        "Developed secure investment transaction processing system",
+        "Implemented advanced property search with filters and analytics",
+        "Built investor portfolio management and tracking dashboards",
+        "Integrated payment gateway APIs for secure financial transactions",
+        "Created automated notification system for investment opportunities",
+        "Optimized performance for handling large property datasets"
+      ]
+    },
+    {
+      "id": "laboratory-management-system",
+      "title": "Laboratory Management System",
+      "subtitle": "Streamlined workflow automation for medical laboratory operations",
+      "description": "Engineered a comprehensive laboratory management system that automates sample collection, tracking, and result delivery workflows. The platform integrates with third-party ticketing systems for blood sample collection and submission, providing real-time tracking, automated notifications, and secure result delivery to patients and healthcare providers.",
+      "url": "#",
+      "ariaLabel": "View Laboratory Management System Project",
+      "category": "Healthcare Technology",
+      "year": 2022,
+      "tags": ["Drupal", "PHP", "API Integration", "Healthcare", "Workflow Automation", "Third-Party Integration"],
+      "seo": {
+        "metaDescription": "Automated laboratory management system with third-party integration for efficient sample tracking and result delivery.",
+        "ogImage": "https://via.placeholder.com/1200x630"
+      },
+      "metrics": {
+        "role": "Software Developer",
+        "timeline": "8 months",
+        "team": "Backend Developer"
+      },
+      "featuredImages": [
+        { "filename": "lab-1", "alt": "Laboratory management dashboard" },
+        { "filename": "lab-2", "alt": "Sample tracking workflow" },
+        { "filename": "lab-3", "alt": "Third-party system integration" }
+      ],
+      "carouselMetadata": [
+        {
+          "label1": "Role",
+          "value1": "Software Developer",
+          "label2": "Timeline",
+          "value2": "8 months",
+          "label3": "Industry",
+          "value3": "Healthcare"
+        },
+        {
+          "label1": "Workflow",
+          "value1": "Automated sample collection ticketing, tracking, processing, and result delivery workflows"
+        },
+        {
+          "label1": "Integration",
+          "value1": "RESTful API integration with third-party laboratory information systems and ticketing platforms"
+        },
+        {
+          "label1": "Compliance",
+          "value1": "Healthcare data security standards and patient privacy regulations"
+        }
+      ],
+      "highlights": [
+        "Integrated REST APIs with third-party ticketing systems",
+        "Automated sample collection and submission workflows",
+        "Built real-time tracking system for sample lifecycle management",
+        "Implemented secure patient result delivery portal",
+        "Developed automated notification system for sample status updates",
+        "Ensured compliance with healthcare data security standards"
+      ]
+    },
+    {
+      "id": "multisite-automation",
+      "title": "Multisite Deployment Automation",
+      "subtitle": "Intelligent automation reducing deployment time by 75%",
+      "description": "Created a sophisticated automation script for multisite Drupal deployment, dramatically reducing deployment time and human error while ensuring consistency across environments. The solution automates configuration management, database synchronization, and deployment workflows, enabling rapid and reliable multi-instance deployments.",
+      "url": "#",
+      "ariaLabel": "View Multisite Deployment Automation Project",
+      "category": "DevOps & Automation",
+      "year": 2023,
+      "tags": ["Automation", "DevOps", "Bash", "Python", "Drupal", "CI/CD"],
+      "seo": {
+        "metaDescription": "Automated multisite deployment solution reducing deployment time by 75% with zero-error consistency.",
+        "ogImage": "https://via.placeholder.com/1200x630"
+      },
+      "metrics": {
+        "role": "Software Developer",
+        "timeline": "3 months",
+        "team": "Solo Developer"
+      },
+      "featuredImages": [
+        { "filename": "automation-1", "alt": "Deployment automation workflow" },
+        { "filename": "automation-2", "alt": "Configuration management system" },
+        { "filename": "automation-3", "alt": "Performance metrics and time savings" }
+      ],
+      "carouselMetadata": [
+        {
+          "label1": "Role",
+          "value1": "Software Developer",
           "label2": "Timeline",
           "value2": "3 months",
-          "label3": "Team",
-          "value3": "3 UX, 4 Dev, 3 PO"
+          "label3": "Impact",
+          "value3": "75% time reduction"
         },
         {
-          "label1": "AI Patterns",
-          "value1": "Lots of new patterns emerging with AI. Consider the above for building trust"
+          "label1": "Automation",
+          "value1": "Automated configuration management, database synchronization, and multi-environment deployments"
         },
         {
-          "label1": "Trust Building Release Cycle",
-          "value1": "We introduced AI iteratively, starting with low-risk features"
+          "label1": "Reliability",
+          "value1": "Eliminated manual errors and ensured consistent deployments across all environments"
+        },
+        {
+          "label1": "Scalability",
+          "value1": "Supports deployment of multiple Drupal instances simultaneously with parallel processing"
         }
-      ]
-    },
-    {
-      "id": "research-strategy",
-      "title": "Research Strategy",
-      "subtitle": "Validating designs through rigorous research",
-      "description": "Validating innovative interaction patterns through rigorous user research, turning insights into design decisions that improve usability and reduce cognitive load.",
-      "url": "research-strategy.html",
-      "ariaLabel": "View User Research Strategy Case Study",
-      "category": "User Research",
-      "year": 2024,
-      "tags": ["User Research", "UX", "Usability Testing", "Design Validation"],
-      "seo": {
-        "metaDescription": "Validating innovative interaction patterns through rigorous user research, turning insights into design decisions that improve usability and reduce cognitive load.",
-        "ogImage": "https://jerimybrown.com/assets/images/preview/home-preview.png"
-      },
-      "metrics": {
-        "role": "UX Director / Designer",
-        "timeline": "2 Weeks",
-        "team": "Me"
-      },
-      "featuredImages": [
-        { "filename": "research-1", "alt": "User research methodology overview" },
-        { "filename": "research-2", "alt": "Research insights and patterns" },
-        { "filename": "research-3", "alt": "Impact and validation results" }
       ],
-      "carouselMetadata": [
-        {
-          "label1": "Role",
-          "value1": "UX Director / Designer",
-          "label2": "Timeline",
-          "value2": "2 Weeks",
-          "label3": "Team",
-          "value3": "Me"
-        },
-        {
-          "label1": "Methodology",
-          "value1": "Rapid pattern validation through strategic use of unmoderated testing"
-        },
-        {
-          "label1": "Impact",
-          "value1": "Showing research can deliver value quickly and efficiently."
-        }
+      "highlights": [
+        "Reduced deployment time from 4 hours to 1 hour per site",
+        "Eliminated manual configuration errors through automation",
+        "Implemented parallel processing for simultaneous deployments",
+        "Created comprehensive logging and error handling mechanisms",
+        "Built rollback functionality for failed deployments",
+        "Integrated with Git for version control and deployment tracking"
       ]
     }
   ]

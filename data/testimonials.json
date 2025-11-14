@@ -1,25 +1,25 @@
 {
   "testimonials": [
     {
-      "id": "alex-martinez",
-      "quote": "Jerimy has a rare ability to zoom from vision to pixels without losing anyone along the journey. He brings engineering into the conversation early, which meant we shipped a complex AI assistant on time—and our teams actually enjoyed the process.",
-      "name": "Alex Martinez",
-      "role": "VP of Product",
-      "company": "DataSphere Analytics"
+      "id": "sarah-patel",
+      "quote": "Working with him on our AI initiative was transformative. He not only built a robust deepfake detection system but also helped our team understand the underlying technology. His ability to bridge ML theory with practical implementation is exceptional.",
+      "name": "Dr. Sarah Patel",
+      "role": "Research Supervisor",
+      "company": "London Metropolitan University"
     },
     {
-      "id": "divya-kapoor",
-      "quote": "Every workshop Jerimy leads ends with clarity. He translated a messy service ecosystem into a cohesive design system with contribution playbooks that our global team now relies on daily.",
-      "name": "Divya Kapoor",
-      "role": "Head of UX Research",
-      "company": "Precisely"
+      "id": "rajesh-kumar",
+      "quote": "His technical depth is impressive. He delivered complex Drupal solutions while maintaining clean, maintainable code. What stood out was his problem-solving approach—always thinking about scalability and long-term maintenance.",
+      "name": "Rajesh Kumar",
+      "role": "Technical Lead",
+      "company": "LN Webworks"
     },
     {
-      "id": "ryan-cole",
-      "quote": "From stakeholder storytelling to code-ready specs, Jerimy carries the torch. His prototypes helped us secure funding, and his partnership through QA ensured the experience we promised was the one we launched.",
-      "name": "Ryan Cole",
-      "role": "Sr. Director of Engineering",
-      "company": "Unified Cloud"
+      "id": "amit-singh",
+      "quote": "Rare to find someone who understands both frontend and backend so well. He built our university platform to handle thousands of users effortlessly, and the custom modules he developed continue to serve us reliably years later.",
+      "name": "Amit Singh",
+      "role": "Project Manager",
+      "company": "Educational Client"
     }
   ]
 }
